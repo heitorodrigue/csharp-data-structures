@@ -34,3 +34,10 @@ int[] resultadoTwoSum = TwoSum.Encontrar(new int[] { 2, 7, 11, 15 }, 9);
 
 Console.WriteLine("Exercício 3 - Two Sum");
 Console.WriteLine($"Resultado: [{resultadoTwoSum[0]}, {resultadoTwoSum[1]}]");
+
+Console.WriteLine();
+
+bool resultadoAnagrama = ValidAnagram.SaoAnagramas("anagram", "nagaram");
+
+Console.WriteLine("Exercício 4 - Valid Anagram");
+Console.WriteLine($"Resultado: {resultadoAnagrama}");
